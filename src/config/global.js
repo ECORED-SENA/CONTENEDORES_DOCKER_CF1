@@ -4,8 +4,8 @@ export default {
       'Infraestructura y requerimientos <em>software</em> y <em>hardware</em>',
     descripcionCurso:
       'En este componente formativo se explicará el tipo de infraestructura <em>Hardware</em> y <em>Software</em> requerida por una compañía u organización, teniendo en cuenta los estándares que garanticen su correcta configuración, sobre la implementación de nuevas tecnologías en <em>cloud computing</em>.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner.svg'),
   },
   menuPrincipal: {
     menu: [
