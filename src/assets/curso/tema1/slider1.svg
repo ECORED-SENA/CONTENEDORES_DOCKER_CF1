@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="374" viewBox="0 0 418 374">
+  <defs>
+    <filter id="Rectángulo_37312" x="0" y="0" width="418" height="374" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="slider1" transform="translate(-906 -5005.936)">
+    <g transform="matrix(1, 0, 0, 1, 906, 5005.94)" filter="url(#Rectángulo_37312)">
+      <rect id="Rectángulo_37312-2" data-name="Rectángulo 37312" width="400" height="356" rx="33" transform="translate(9 6)" fill="#f6f6f6"/>
+    </g>
+    <g id="Grupo_141714" data-name="Grupo 141714" transform="translate(10323 10957.936)">
+      <circle id="Elipse_4061" data-name="Elipse 4061" cx="24.5" cy="24.5" r="24.5" transform="translate(-9298 -5903)" fill="#039be5"/>
+      <circle id="Elipse_4066" data-name="Elipse 4066" cx="24.5" cy="24.5" r="24.5" transform="translate(-9303 -5760)" fill="#039be5"/>
+      <ellipse id="Elipse_4062" data-name="Elipse 4062" cx="24" cy="24.5" rx="24" ry="24.5" transform="translate(-9213 -5903)" fill="#039be5"/>
+      <ellipse id="Elipse_4065" data-name="Elipse 4065" cx="25" cy="24.5" rx="25" ry="24.5" transform="translate(-9246 -5760)" fill="#039be5"/>
+      <circle id="Elipse_4063" data-name="Elipse 4063" cx="24.5" cy="24.5" r="24.5" transform="translate(-9148 -5903)" fill="#039be5"/>
+      <ellipse id="Elipse_4064" data-name="Elipse 4064" cx="25" cy="24.5" rx="25" ry="24.5" transform="translate(-9185 -5760)" fill="#039be5"/>
+      <line id="Línea_230" data-name="Línea 230" x2="173.481" transform="translate(-9286.515 -5805.221)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+      <line id="Línea_231" data-name="Línea 231" y2="93.649" transform="translate(-9275.769 -5852.813)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+      <line id="Línea_232" data-name="Línea 232" y2="46.057" transform="translate(-9221.268 -5805.221)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+      <line id="Línea_233" data-name="Línea 233" y2="50" transform="translate(-9189 -5854)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+      <line id="Línea_234" data-name="Línea 234" y2="44" transform="translate(-9160 -5804)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+      <line id="Línea_235" data-name="Línea 235" y2="49" transform="translate(-9124 -5854)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <path id="Trazado_183919" data-name="Trazado 183919" d="M.967,0V-12.8h4.6a6.509,6.509,0,0,1,3.757.905,3.012,3.012,0,0,1,1.288,2.628,3.045,3.045,0,0,1-.457,1.7A2.663,2.663,0,0,1,8.807-6.53a2.7,2.7,0,0,1,1.538.984,2.862,2.862,0,0,1,.536,1.758A3.388,3.388,0,0,1,9.69-.962,5.667,5.667,0,0,1,6.161,0ZM4.052-5.44v3.067H6.073a1.923,1.923,0,0,0,1.283-.382A1.338,1.338,0,0,0,7.8-3.832,1.419,1.419,0,0,0,6.214-5.44Zm0-2.021H5.66A2.285,2.285,0,0,0,7.1-7.832,1.314,1.314,0,0,0,7.532-8.9a1.379,1.379,0,0,0-.466-1.168,2.493,2.493,0,0,0-1.5-.357H4.052ZM18.105-1.028a3.054,3.054,0,0,1-2.54,1.2A3,3,0,0,1,13.2-.734a3.826,3.826,0,0,1-.8-2.615V-9.51h2.962v6.179a1.065,1.065,0,0,0,1.187,1.222,1.548,1.548,0,0,0,1.45-.729V-9.51h2.979V0H18.193Zm9.466-1.644a.684.684,0,0,0-.4-.606,6.016,6.016,0,0,0-1.5-.475A6.853,6.853,0,0,1,23.845-4.4a3.062,3.062,0,0,1-1.1-.971,2.319,2.319,0,0,1-.378-1.31,2.628,2.628,0,0,1,1.081-2.158,4.453,4.453,0,0,1,2.83-.848,4.934,4.934,0,0,1,3.023.853,2.666,2.666,0,0,1,1.143,2.241H27.475q0-1.143-1.2-1.143a1.194,1.194,0,0,0-.782.259.8.8,0,0,0-.316.646.737.737,0,0,0,.387.642,3.654,3.654,0,0,0,1.235.4,10.671,10.671,0,0,1,1.49.378A2.706,2.706,0,0,1,30.428-2.76,2.491,2.491,0,0,1,29.272-.642a5.068,5.068,0,0,1-2.993.817A5.172,5.172,0,0,1,24.1-.264a3.645,3.645,0,0,1-1.494-1.2,2.707,2.707,0,0,1-.536-1.591h2.769a1.145,1.145,0,0,0,.439.962,1.808,1.808,0,0,0,1.081.3,1.422,1.422,0,0,0,.91-.246A.787.787,0,0,0,27.571-2.672Z" transform="translate(1105 5319.936)" fill="#12263f"/>
+  </g>
+</svg>
