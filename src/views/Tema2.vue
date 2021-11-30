@@ -248,7 +248,7 @@
           
         figure
           img(src='@/assets/curso/tema2/img9.svg', alt='', style='').m-auto
-    .row.justify-content-center.fondo-caption.mb-5
+    .row.justify-content-center.fondo-caption.mb-0
       .col-lg-12.px-md-5.py-3
         .row.justify-content-center.mb-0
           .col-lg-12
