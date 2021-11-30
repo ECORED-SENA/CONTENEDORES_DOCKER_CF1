@@ -344,7 +344,7 @@
 
     
     .row.justify-content-center.mb-5
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido.mb-4
         h5 Tabla 1.
         span Estándares internacionales de red 
           
