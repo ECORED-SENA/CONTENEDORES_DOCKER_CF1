@@ -341,8 +341,81 @@
           p.mb-0 En los últimos años ha habido un crecimiento desbordado en el tamaño de las redes. Por ello, vienen desarrollando o implementando tecnologías de hardware y software diferentes, pero algunas redes generaban incompatibilidad, imposibilitando su comunicación. Para solucionar este problema, la Organización Internacional para la Normalización (ISO) realizó varias investigaciones acerca de los esquemas de red y reconoció que era indispensable crear un modelo de red que pudiera ayudar a los diseñadores de red a implementar redes que pudieran comunicarse y trabajar en conjunto (interoperabilidad) y, por lo tanto, elaboraron el modelo de referencia OSI en 1984.
     
     p.mb-5 A continuación, la siguiente tabla describe cada uno de los estándares internacionales:
+
     
-    
+    .row.justify-content-center.mb-5
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 1.
+        span Estándares internacionales de red 
+          
+      .col-lg-12
+        .tabla-a.color-acento-botones.mb-5 
+          table
+            caption Nota: Tomado de Red Tecnológica MID - Plataforma de Novedades, Consultas y Negocios. (2021). 
+            thead
+              tr
+                th Especificaci&oacute;n
+                th Descripci&oacute;n
+            tbody
+              tr
+                td 802.1
+                td Establece los est&aacute;ndares de interconexi&oacute;n relacionados con la gesti&oacute;n de redes.
+              tr
+                td 802.2
+                td
+                  | Define el est&aacute;ndar general para el nivel de enlace de datos. El IEEE divide este nivel en dos subniveles: los niveles LLC y MAC. El nivel MAC var&iacute;a en funci&oacute;n de los diferentes tipos de red y est&aacute; definido por el est&aacute;ndar IEEE 802.3.
+              tr
+                td 802.3
+                td
+                  | Define el nivel MAC para redes de bus que utilizan Acceso m&uacute;ltiple por detecci&oacute;n de portadora con detecci&oacute;n de colisiones (CSMA/CD, Carrier-Sense Multiple Access with Collision Detection). &Eacute;ste es el est&aacute;ndar Ethernet.
+              tr
+                td 802.4
+                td
+                  | Define el nivel MAC para redes de bus que utilizan un mecanismo de paso de testigo (red de &aacute;rea local Token Bus).
+              tr
+                td 802.5
+                td Define el nivel MAC para redes Token Ring (red de &aacute;rea local Token Ring).
+              tr
+                td 802.6
+                td
+                  | Establece est&aacute;ndares para redes de &aacute;rea metropolitana (MAN, Metropolitan Area Networks), que son redes de datos dise&ntilde;adas para poblaciones o ciudades. En t&eacute;rminos de extensi&oacute;n geogr&aacute;fica, las redes de &aacute;rea metropolitana (MAN) son m&aacute;s grandes que las redes de &aacute;rea local (LAN), pero m&aacute;s peque&ntilde;as que las redes de &aacute;rea global (WAN). Las redes de &aacute;rea metropolitana (MAN) se caracterizan, normalmente, por conexiones de muy alta velocidad utilizando cables de fibra &oacute;ptica u otro medio digital.
+              tr
+                td 802.7
+                td
+                  | Utilizada por el grupo asesor t&eacute;cnico de banda ancha (Broadband Technical Advisory Group).
+              tr
+                td 802.8
+                td
+                  | Utilizada por el grupo asesor t&eacute;cnico de fibra &oacute;ptica (Fiber-Optic Technical Advisory Group).
+              tr
+                td 802.9
+                td Define las redes integradas de voz y datos.
+              tr
+                td 802.10
+                td Define la seguridad de las redes.
+              tr
+                td 802.11
+                td Define los est&aacute;ndares de redes sin cable.
+              tr
+                td 802.11b
+                td
+                  | Ratificado el 16 de septiembre de 1.999, proporciona el espaldarazo definitivo a la normativa est&aacute;ndar inicial, ya que permite operar a velocidades de 11 Mbps y resuelve carencias t&eacute;cnicas relativas a la falta de itinerancia, seguridad, escalabilidad, y gesti&oacute;n existente hasta ahora.
+              tr
+                td 802.12
+                td
+                  | Define el acceso con prioridad por demanda (Demand Priority Access) a una LAN, 100BaseVG-AnyLAN.
+              tr
+                td 802.13
+                td No utilizada.
+              tr
+                td 802.14
+                td Define los est&aacute;ndares de m&oacute;dem por cable.
+              tr
+                td 802.15
+                td Define las redes de &aacute;rea personal sin cable (WPAN, Wireless Personal)
+
+
+
     separador
     #t_1_4.titulo-segundo
       .h2 1.4 Direccionamiento IPV4, IPV6 
