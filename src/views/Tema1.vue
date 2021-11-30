@@ -329,10 +329,10 @@
     
     
     separador
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo.color-acento-botones
       .h2 1.3 Estándares
     
-    .row.justify-content-center.align-items-center.gx-0
+    .row.justify-content-center.align-items-center.gx-0.mb-5
       .col-8.col-lg-3
         figure
           img(src='@/assets/curso/tema1/img12.svg', alt='imagen que acompaña', style='width:300px').m-auto
@@ -417,7 +417,7 @@
 
 
     separador
-    #t_1_4.titulo-segundo
+    #t_1_4.titulo-segundo.color-acento-botones
       .h2 1.4 Direccionamiento IPV4, IPV6 
 
     p.mb-4 A continuación, se explicarán brevemente los conceptos de IPV4, IPV6:
@@ -469,7 +469,7 @@
     p.mb-5 Existen dos tipos de direcciones IP, las privadas y las públicas. A continuación, se explicarán sus principales características:
 
 
-    .row.justify-content-center.align-items-center.py-4(style='background-color: #4DD0E1; border-radius: 30px;')
+    .row.justify-content-center.align-items-center.py-4.mb-5(data-aos="flip-up" style='background-color: #4DD0E1; border-radius: 30px;')
       .col-lg-7.mb-4.mb-lg-0
         h4.mb-3 IP Privadas
         p.mb-0 Las direcciones Ip privadas están dentro de un esquema local, más exactamente son las direcciones que asigna un router y estas direcciones en su conjunto hacen una red LAN, estas IP son asignadas por el router y lo hace de manera manual o automática por medio de un protocolo llamado DHCP, tienen la características de privadas porque son direcciones que no son visibles ante internet ya que estas permiten la navegación a través de un dispositivo que si tiene asignada una dirección pública que es vista por internet, estas direcciones están dispuestas en rangos así:
@@ -477,6 +477,91 @@
         figure
           img(src='@/assets/curso/tema1/img15.svg', alt='imagen que acompaña', style='width:315px').m-auto
         
+
+    .row.justify-content-center.align-items-center
+      p.mb-4
+        b Clase A: 10.0.0.0 a 10.255.255.255
+      .col-lg-6.mb-4.mb-lg-0
+        p.mb-0 Las direcciones Ip privadas están dentro de un esquema local, más exactamente son las direcciones que asigna un router y estas direcciones en su conjunto hacen una red LAN, estas IP son asignadas por el router y lo hace de manera manual o automática por medio de un protocolo llamado DHCP, tienen la características de privadas porque son direcciones que no son visibles ante internet ya que estas permiten la navegación a través de un dispositivo que si tiene asignada una dirección pública que es vista por internet, estas direcciones están dispuestas en rangos así:
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/tema1/img16.png', alt='imagen que acompaña', style='').m-auto
+    hr
+
+    .row.justify-content-center.align-items-center
+      p.mb-4
+        b Clase B: 172.16.0.0 a 172.31.255.255
+      .col-lg-6.mb-4.mb-lg-0
+        p.mb-4 Este rango clase B, es usado en redes de un tamaño medio, como entidades, organizaciones o universidades. Se puede crear un número más amplio de redes que el rango A, 16.384 redes, pero con una menor cantidad de equipos conectados a ellas, 65.534 dispositivos.
+        p.mb-0 El rango está en 172.16.0.0 a 172.31.255.255; los dos primeros bloques identifican la red y los restantes a los equipos conectados a ella.
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/tema1/img17.png', alt='imagen que acompaña', style='').m-auto
+    hr
+      
+    .row.justify-content-center.align-items-center
+      p.mb-4
+        b Clase C: 192.168.0.0 a 192.168.255.255
+      .col-lg-6.mb-4.mb-lg-0
+        p.mb-4 Este rango clase C es el más usado y el que encontramos normalmente, se utiliza en las redes comunes. Permite tener muchas más redes, 2.097.152, pero conectando menos equipos a cada una de ellas, 254.
+        p.mb-0 Este rango va C va desde 192.168.0.0 a 192.168.255.255; aquí son los tres primeros bloques los que identifican la red, mientras que el último identifica a los equipos.
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/tema1/img18.png', alt='imagen que acompaña', style='').m-auto
+    hr
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/gif1.gif', alt='', style='').m-auto
+          
+      .col-lg-8
+        p.mb-4 Estas direcciones independientemente de la clase deberían ser únicas dentro de una red de tal manera que no exista en la red local otro dispositivo con la misma dirección IP ya que si esto llegase a suceder generaría un conflicto de direcciones bloqueando a ambos dispositivos en la LAN.
+        .p-4(style='background-color: #FFF5D6')
+          p.mb-0 Las direcciones IP privadas pueden estar repetidas pero en diferentes redes, por ese motivo no habrá conflictos, ya que las redes están separadas, también podemos tener dos direcciones iguales pero en distintas ciudades.
+
+    .row.justify-content-center.align-items-center.py-4.mb-5(data-aos="flip-up" style='background-color: #4DD0E1; border-radius: 30px;')
+      .col-lg-7.mb-4.mb-lg-0
+        h4.mb-3 IP Públicas
+        p.mb-0 Una IP pública es la dirección que se le asigna directamente a un equipo que está expuesto directamente a internet, por ejemplo los router que instalan las empresas prestadoras de servicio de internet (ISP) o los servidores que alojan información para acceder de manera remota, servidores web, entre otros.
+      .col-8.col-lg-3
+        figure
+          img(src='@/assets/curso/tema1/img19.svg', alt='imagen que acompaña', style='width: 294px').m-auto
+        
+
+
+    .row.fondo3.mb-5
+      .col-lg-12.px-md-5
+        .row.justify-content-center.mb-4
+          .col-10.col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img20.svg', alt='imagen que acompaña', style='width: 490px').m-auto
+          .col-lg-7
+            p.mb-4 Estas direcciones públicas no se pueden repetir, son direcciones únicas a diferencia de las privadas. Son asignadas por los proveedores de Internet (ISP), también son conocidas como ip dinámicas ya que cambian cada vez que reiniciamos el router o cada período de tiempo, sin embargo también existe direcciones IP pública fija o estática, en caso que estas sean necesarias, para realizar este cambio de ip pública dinámica a estática es necesario contactar a nuestro proveedor para que lo realice.
+            p.mb-4 Las direcciones IP públicas también tienen rangos y corresponden los que están excluidos de los rangos de las IP privadas, van desde 1. … hasta 191. …. De tal forma que el rango de la IP pública estará en:
+                
+            p.mb-2 Clase A: 1.0.0.0 a 126.255.255.255
+            p.mb-2 Clase B: 128.0.0.0 a 191.255.255.255
+            p.mb-4 Clase C: 192.0.0.0 a 223.255.255.255
+            p.mb-0 Diferencian las direcciones de IP públicas y privadas.
+            
+        .row.justify-content-center.mb-5
+          .col-lg-8
+            .p-4(style="background-color: #FFFFFF")
+              h5.mb-4 Principal diferencia entre: IP Pública y Privada es:
+              h5.mb-4 IP pública: se accede desde internet.
+              h5.mb-0 IP privada: no puede desde internet, accede a los dispositivos conectados al punto de enlace.
+            
+        .row.justify-content-center.mb-5.gx-0
+          .col-lg-6.mb-4.mb-lg-0
+            .px-4.py-4(style="background-color: #039BE5")
+              p.mb-4.text-white Sin embargo, podemos decir que, entre IP privada y pública, ambas son necesarias para que los dispositivos puedan engancharse a internet. Para poder navegar por la red es necesario tener asignado una IP pública.
+              p.mb-0.text-white Al ver una IP pública y una IP privada, se pueden diferenciar al ver su rango, cuando estos difieren de los asignados, normalmente por el router de la siguiente manera:
+          .col-10.col-lg-6
+            figure(data-aos='zoom-in')
+              img(src='@/assets/curso/tema1/img21.jpg', alt='imagen que acompaña', style='').m-auto
+            
 
 
 
