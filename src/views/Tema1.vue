@@ -349,12 +349,12 @@
         span Estándares internacionales de red 
           
       .col-lg-12
-        .tabla-a.color-acento-botones.mb-5 
+        .tabla-a.color-primario.mb-5 
           table
             caption Nota: Tomado de Red Tecnológica MID - Plataforma de Novedades, Consultas y Negocios. (2021). 
             thead
               tr
-                th Especificaci&oacute;n
+                th(style='width:30%') Especificaci&oacute;n
                 th Descripci&oacute;n
             tbody
               tr
@@ -419,6 +419,65 @@
     separador
     #t_1_4.titulo-segundo
       .h2 1.4 Direccionamiento IPV4, IPV6 
+
+    p.mb-4 A continuación, se explicarán brevemente los conceptos de IPV4, IPV6:
+
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+      .row.justify-content-center(titulo="IPv4z")
+        .col-lg-10
+          .row.justify-content-center.align-items-center
+            .col-lg-6.mb-4.mb-lg-0
+              p.mb-4 El protocolo IPv4, fué el primero desde 1983, no existe versiones previas.
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 Esta fué implementada para la producción de ARPARNET. 
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 Usa direcciones de 32 bits limitadas. 
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 Las direcciones disponibles en la reserva global de IANA pertenecientes al protocolo IPv4 se agotaron oficialmente el lunes 31 de enero de 2011, 
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 A raíz de esta escasez nace IPv6.
+            .col-10.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img13.png', alt='imagen que acompaña', style='width:500px').m-auto
+                  
+      .row.justify-content-center(titulo="IPv6")
+        .col-lg-10
+          .row.justify-content-center.align-items-center
+            .col-lg-6.mb-4.mb-lg-0
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 La nueva versión del protocolo IP es de IPv6, también conocido como  IPng (Internet Protocol Next Generation). 
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 El IPv6 es una actualización al protocolo IPv4, diseñado para resolver el problema de agotamiento de direcciones.
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 Algunas de las principales ventajas son: autoconfiguración en la conexión a la red, asignación jerárquica de direcciones e incorporación de mecanismos de seguridad.
+            .col-10.col-lg-6
+              figure
+                img(src='@/assets/curso/tema1/img14.png', alt='imagen que acompaña', style='width:500px').m-auto
+                  
+
+    h3.mb-4 Direcciones públicas y privadas
+
+    p.mb-5 Existen dos tipos de direcciones IP, las privadas y las públicas. A continuación, se explicarán sus principales características:
+
+
+    .row.justify-content-center.align-items-center.py-4(style='background-color: #4DD0E1; border-radius: 30px;')
+      .col-lg-7.mb-4.mb-lg-0
+        h4.mb-3 IP Privadas
+        p.mb-0 Las direcciones Ip privadas están dentro de un esquema local, más exactamente son las direcciones que asigna un router y estas direcciones en su conjunto hacen una red LAN, estas IP son asignadas por el router y lo hace de manera manual o automática por medio de un protocolo llamado DHCP, tienen la características de privadas porque son direcciones que no son visibles ante internet ya que estas permiten la navegación a través de un dispositivo que si tiene asignada una dirección pública que es vista por internet, estas direcciones están dispuestas en rangos así:
+      .col-8.col-lg-3
+        figure
+          img(src='@/assets/curso/tema1/img15.svg', alt='imagen que acompaña', style='width:315px').m-auto
+        
+
 
 
 
