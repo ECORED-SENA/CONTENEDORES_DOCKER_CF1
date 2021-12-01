@@ -349,7 +349,7 @@
         span Estándares internacionales de red 
           
       .col-lg-12
-        .tabla-a.color-primario.mb-5 
+        .tabla-a.color-primario.mb-2
           table
             caption Nota: Tomado de Red Tecnológica MID - Plataforma de Novedades, Consultas y Negocios. (2021). 
             thead

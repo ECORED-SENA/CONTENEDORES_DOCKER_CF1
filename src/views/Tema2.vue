@@ -17,7 +17,7 @@
         figure
           img(src='@/assets/curso/tema2/gif1.gif', alt='', style='width: 380px;').m-auto
 
-    p.mb-0 Desde la anterior perspectiva, se posibilitará trabajar en las generalidades de los requerimientos y sobre todo situándose en aquellos que no son funcionales en el proceso de desarrollo; posteriormente se abordará la arquitectura y el despliegue de aplicaciones y servicios que posibilitará conocer las necesidades de los clientes a partir de los requisitos no funcionales definidos.
+    p.mb-5 Desde la anterior perspectiva, se posibilitará trabajar en las generalidades de los requerimientos y sobre todo situándose en aquellos que no son funcionales en el proceso de desarrollo; posteriormente se abordará la arquitectura y el despliegue de aplicaciones y servicios que posibilitará conocer las necesidades de los clientes a partir de los requisitos no funcionales definidos.
 
 
     #t_2_1.titulo-segundo.color-acento-botones
