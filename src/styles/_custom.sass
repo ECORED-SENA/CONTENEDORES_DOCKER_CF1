@@ -114,7 +114,40 @@
 .color-piel
   background-color: #FFF5D6
 
+.tarjeta-flip__contenido
+  background-color: #FFF5D6
 
 
+/////// CUSTOM FLIP CARDS
 
+/*.flip 
+  width: 400px
+  height: 345px
+  text-align: center
+  perspective: 600px   
+
+/*.flip-content 
+  width: 100%
+  height: 100%
+  transition: transform 0.4s
+  transform-style: preserve-3d
+  border-radius: 25px
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+/*.flip:hover .flip-content 
+  transform: rotateY(180deg)
+  transition: transform 0.3s
+
+/*.flip-front, .flip-back 
+  position: absolute
+  height: 100%
+  width: 100%  
+  backface-visibility: hidden  
+  color: #fff  
+
+/*.flip-back 
+  transform: rotateY(180deg) 
+  border-radius: 25px
+  background-color: #ffffff15 
+  ///
 
