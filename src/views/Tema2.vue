@@ -205,7 +205,7 @@
             .p-4(style='background-color: #FFF5D6;')
               ul.lista-ul
                 li 
-                  .fas.fa-circle.pe-3
+                  .fas.fa-circle.pe-2
                   p.mb-0 Clientes y servidores: examinar qué servicios son requeridos en el servidor como servidores <em>web</em>, DNS, FTP, entre otros y de igual manera a las aplicaciones de tipo cliente que son necesarias para acceder a estos servicios.
               .row.justify-content-center
                 .col-lg-8

@@ -8,7 +8,7 @@
         span 1
       h1 <em>Networking</em>
   
-    p.mb-4 El siguiente video, hace una breve descripción de <em>Networking</em>, como lo afirma Carazo J. (2019):
+    p.mb-4 El siguiente video, hace una breve descripción de <em>Networking</em>:
 
     figure.mb-5
       .video
@@ -259,7 +259,7 @@
                   
                 
           .row.justify-content-center.align-items-center
-            .col-md-5.mb-4.mb-lg-0
+            .col-md-6.mb-4.mb-lg-0.pt-4.pt-lg-5
               h4.mb-4 Red en estrella
               p.mb-4 Los nodos de la red están todos conectados a un nodo central, es común verlo trabajar en las redes Ethernet actuales en RJ45, ahora es la topología por excelencia en la mayoría de las redes. 
               p.mb-4 La función de este nodo central es garantizar la comunicación entre los distintos equipos de red. El nodo central suele ser un <em>switch</em> (conmutador) o un <em>hubs</em> (concentrador), aunque hoy en día suele ponerse siempre un <em>switch</em>, las estaciones o computadores envían a este nodo central los datos que:

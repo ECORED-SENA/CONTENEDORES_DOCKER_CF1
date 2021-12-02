@@ -79,38 +79,46 @@
     p.mb-4 Entre las ventajas que se pueden destacar del cloud computing encontramos las siguientes:
 
 
-    .row.justify-content.center
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+    .row.justify-content.center.mb-5
+      .col-10.col-lg-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img3.svg')})`}" style="background-size: contain; background-position: center; background-repeat: no-repeat")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p No es necesario invertir en una gran infraestructura ni licencias que serán obsoletas con el paso del tiempo. Hay gran variedad de servicios que se pagan de forma mensual de acuerdo con el uso y que son acompañados muchas veces de otros servicios totalmente gratuitos,
+            .tarjeta-flip__contenido
+              figure
+                img(src='@/assets/curso/tema3/flip1.svg', alt='', style=';').m-auto
+              //p No es necesario invertir en una gran infraestructura ni licencias que serán obsoletas con el paso del tiempo. Hay gran variedad de servicios que se pagan de forma mensual de acuerdo con el uso y que son acompañados muchas veces de otros servicios totalmente gratuitos,
               
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-10.col-lg-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.svg')})`}" style="background-size: contain; background-position: center; background-repeat: no-repeat")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p Debido a que son plataformas basadas y pensadas para la <em>web</em>.
+            .tarjeta-flip__contenido
+              figure
+                img(src='@/assets/curso/tema3/flip2.svg', alt='', style=';').m-auto
+              //p Debido a que son plataformas basadas y pensadas para la <em>web</em>.
               
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-10.col-lg-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5.svg')})`}" style="background-size: contain; background-position: center; background-repeat: no-repeat")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p Permite reasignar recursos sin dejar de prestar los servicios existentes y facilitando los  procesos largos de compra. El proceso de aprovisionamiento de recursos dependiendo de la complejidad, puede realizarse en pocos minutos.
+            .tarjeta-flip__contenido
+              figure
+                img(src='@/assets/curso/tema3/flip3.svg', alt='', style=';').m-auto
+              //p Permite reasignar recursos sin dejar de prestar los servicios existentes y facilitando los  procesos largos de compra. El proceso de aprovisionamiento de recursos dependiendo de la complejidad, puede realizarse en pocos minutos.
               
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-10.col-lg-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img6.svg')})`}" style="background-size: contain; background-position: center; background-repeat: no-repeat")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p En cualquier momento y desde cualquier lugar en que se cuente con una conexión a internet.
+            .tarjeta-flip__contenido
+              figure
+                img(src='@/assets/curso/tema3/flip4.svg', alt='', style=';').m-auto
+              //p En cualquier momento y desde cualquier lugar en que se cuente con una conexión a internet.
               
 
     p Algunos de los servicios de computación en la nube más conocidos mundialmente son: Amazon Web Services, Azure y Google Cloud Platform.
