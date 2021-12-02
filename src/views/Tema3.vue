@@ -14,7 +14,7 @@
         figure
           img(src='@/assets/curso/tema3/img1.png', alt='', style='width: 500px;').m-auto
       .col-lg-7
-        p.mb-4 La industria del software y en general todo lo relacionado a TI, ha tenido grandes avances respecto a metodologías de trabajo, herramientas tecnológicas y demás relacionado con la infraestructura necesaria para la construcción de productos y servicios. Sin embargo, una de las preocupaciones  al momento de construir y desplegar soluciones, radica en decidir qué tipo de arquitectura tecnológica es más conveniente adquirir, teniendo presente  las grandes velocidades con las que este tipo de elementos se vuelven obsoletos. 
+        p.mb-4 La industria del <em>software</em> y en general todo lo relacionado a TI, ha tenido grandes avances respecto a metodologías de trabajo, herramientas tecnológicas y demás relacionado con la infraestructura necesaria para la construcción de productos y servicios. Sin embargo, una de las preocupaciones  al momento de construir y desplegar soluciones, radica en decidir qué tipo de arquitectura tecnológica es más conveniente adquirir, teniendo presente  las grandes velocidades con las que este tipo de elementos se vuelven obsoletos. 
         .cajon.color-primario.p-4
           p.mb-0 Este componente formativo  muestra las generalidades relacionadas con una forma de dar solución al problema del alistamiento tecnológico, el cual es muy usado actualmente en la industria: la computación en la nube.
 
@@ -27,7 +27,7 @@
     span.etiqueta Es un servicio que se puede consumir por Internet y por medio del cual se pueden rentar  recursos computacionales como son: servidores, almacenamiento, procesadores o cualquier cosa que una computadora puede hacer.
 
 
-    p.mb-4.mt-3 En el campo de la TI, el concepto de nube ya existía desde los años 90, sin embargo, solo  hasta el año 2006 fue cuando se popularizó el término con la aparición del servicio EC2 de Amazon (Elastic Compute Cloud), el cual es un servicio web que se puede alquilar pero con la característica que es escalable de acuerdo con las necesidades del usuario (AWS, 2021), es decir, un servidor que se puede modificar en almacenamiento, poder de procesamiento, red, sistema operativo, entre otras cosas.
+    p.mb-4.mt-3 En el campo de la TI, el concepto de nube ya existía desde los años 90, sin embargo, solo  hasta el año 2006 fue cuando se popularizó el término con la aparición del servicio EC2 de Amazon (Elastic Compute Cloud), el cual es un servicio <em>web</em> que se puede alquilar pero con la característica que es escalable de acuerdo con las necesidades del usuario (AWS, 2021), es decir, un servidor que se puede modificar en almacenamiento, poder de procesamiento, red, sistema operativo, entre otras cosas.
 
 
     .row.fondo1.mb-5
@@ -46,7 +46,7 @@
                   
               .tarjeta.color-piel.p-3(x="29.5%" y="34%" numero="2")
                 .h5.mb-2 Servicios de almacenamiento
-                p.mb-4 Este tipo de servicios buscan garantizar la disponibilidad de la información en cualquier momento, va más  allá de brindar grandes cantidades de almacenamiento sino que además se establecen mecanismo, como por ejemplo la replicación en diferentes ubicaciones geográficas de forma que se pueda trabajar y acceder a los datos incluso en escenarios complejos dando gran tolerancia a fallos.
+                p.mb-4 Este tipo de servicios buscan garantizar la disponibilidad de la información en cualquier momento, va más  allá de brindar grandes cantidades de almacenamiento sino que además se establecen mecanismo, como por ejemplo la replicación en diferentes ubicaciones geográficas de forma que se pueda trabajar y acceder a los datos incluso en escenarios complejos dando gran tolerancia a fallas.
                   
               .tarjeta.color-piel.p-3(x="57%" y="54%" numero="3")
                 .h5.mb-2 Servicios de red
@@ -94,7 +94,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.svg')})`}" style="background-size: contain; background-position: center; background-repeat: no-repeat")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p Debido a que son plataformas basadas y pensadas para la web.
+              p Debido a que son plataformas basadas y pensadas para la <em>web</em>.
               
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")

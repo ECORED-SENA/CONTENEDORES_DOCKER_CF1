@@ -31,25 +31,25 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: '<em>Componentes de red</em>',
-            hash: '',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Topologías',
-            hash: '',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Estándares ',
-            hash: '',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Direccionamiento IPV4, IPV6 ',
-            hash: '',
+            hash: 't_1_4',
           },
         ],
       },
@@ -166,7 +166,8 @@ export default {
       link: 'https://sistemamid.com',
     },
     {
-      referencia: 'Oracle Corporation (2010). Modelo de referencia OSI.',
+      referencia:
+        'Oracle <em>Corporation</em> (2010). Modelo de referencia OSI.',
       link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
     },
     {
@@ -177,11 +178,11 @@ export default {
     },
     {
       referencia:
-        'SENA. (2021). Despliegue de aplicaciones y servicios en contenedores <em>DOCKER</em>. SENA',
+        'SENA. (2021). Despliegue de aplicaciones y servicios en contenedores <em>Docker</em>. SENA',
     },
     {
       referencia:
-        'Sommerville I. (2011).  Ingeniería del software. México: Addison-Wesley.',
+        'Sommerville I. (2011).  Ingeniería del <em>software</em>. México: Addison-Wesley.',
       link:
         'https://sistemamid.com/panel/uploads/biblioteca/2018-06-11_03-37-12144643.pdf',
     },
@@ -190,7 +191,7 @@ export default {
     {
       termino: 'Capa',
       significado:
-        'es una capa compleja que permite conectividad y elige una ruta entre dos sistemas de hosts que pueden estar ubicados en redes geográficamente distintas.',
+        'es una capa compleja que permite conectividad y elige una ruta entre dos sistemas de <em>hosts</em> que pueden estar ubicados en redes geográficamente distintas.',
     },
     {
       termino: '<em>Offline</em>',
@@ -204,7 +205,7 @@ export default {
     },
     {
       termino: 'TI',
-      significado: 'Tecnología de la Información.',
+      significado: ' Tecnología de la Información.',
     },
   ],
   complementario: [
@@ -281,7 +282,7 @@ export default {
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
-      {
+      /*{
         nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
@@ -322,7 +323,7 @@ export default {
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
+      },*/
       {
         nombre: 'Jorge Leonardo Camacho Pardo',
         cargo: 'Desarrollo front-end',
@@ -335,12 +336,12 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      /*{
-        nombre: '',
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {
