@@ -315,7 +315,7 @@
             .col-md-5.mb-4.mb-lg-0
               h4.mb-4 Red totalmente conexa
               p.mb-4 En esta se evidencia que hay una conexión directa entre todos los pares de sus nodos. En una red que incluye los n nodos, siempre hay n (n-1) / 2 enlaces directos. 
-              p.mb-0 Este tipo de topologías suelen tener un costo muy elevado para su configuración, pero siempre proporcionan un confiabilidad mayor, ya que hay muchos trayectos para la información, suministrada cierta cantidad de enlaces entre nodos, este tipo de topologías son implementadas en aplicaciones militares.
+              p.mb-0 Este tipo de topologías suelen tener un costo muy elevado para su configuración, pero siempre proporcionan una confiabilidad mayor, ya que hay muchos trayectos para la información, suministrada cierta cantidad de enlaces entre nodos, este tipo de topologías son implementadas en aplicaciones militares.
                   
             .col-10.col-md-5
               figure
@@ -429,7 +429,7 @@
               ul.lista-ul
                 li 
                   i.fas.fa-angle-right
-                  p.mb-0 Esta fué implementada para la producción de ARPARNET. 
+                  p.mb-0 Esta fué implementada para la producción de ARPANET. 
                 li 
                   i.fas.fa-angle-right
                   p.mb-0 Usa direcciones de 32 bits limitadas. 
@@ -503,7 +503,7 @@
         b Clase C: 192.168.0.0 a 192.168.255.255
       .col-lg-6.mb-4.mb-lg-0
         p.mb-4 Este rango clase C es el más usado y el que encontramos normalmente, se utiliza en las redes comunes. Permite tener muchas más redes, 2.097.152, pero conectando menos equipos a cada una de ellas, 254.
-        p.mb-0 Este rango va C va desde 192.168.0.0 a 192.168.255.255; aquí son los tres primeros bloques los que identifican la red, mientras que el último identifica a los equipos.
+        p.mb-0 Este rango va desde 192.168.0.0 a 192.168.255.255; aquí son los tres primeros bloques los que identifican la red, mientras que el último identifica a los equipos.
       .col-lg-6
         figure
           img(src='@/assets/curso/tema1/img18.png', alt='imagen que acompaña', style='').m-auto

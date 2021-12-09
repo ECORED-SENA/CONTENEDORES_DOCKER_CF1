@@ -30,7 +30,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '<em>Componentes de red</em>',
+            titulo: 'Componentes de red',
             hash: 't_1_1',
           },
           {
@@ -328,6 +328,11 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
